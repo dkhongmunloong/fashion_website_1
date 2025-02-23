@@ -1,0 +1,59 @@
+/*
+    Filename: color.css
+    Applies to: all html files
+    author: Daniel Khong mun Loong
+*/
+
+:root
+{
+    --custom-color: #096f2a;
+    --custom-color-darker: #095521;
+    --custom-color-light: #92f7b2;
+    --custom-color-rgb: 9, 111, 42;
+    --custom-color-light-rgb: 146, 247, 178;
+    --custom-text-color: #808080;
+    --custom-text-color-dark: #000000;
+    --csustom-font-size-nav: 1em;
+    --custom-color-light-intro: 14, 157, 204;
+    --custom-color-light-intro-test: rgb(164, 200, 255);
+    --custom-bs-bg-opacity: 0.1;
+    --custom-bs-bg-opacity-2: 0.2;
+
+    --custom-color-light-contact-1: 164, 200, 255;    
+}
+
+footer 
+{
+    color: var(--custom-text-color-dark);
+}
+
+footer a.nav-link {
+    color: var(--custom-text-color-dark);
+}
+
+nav.navbar span.badge
+{
+    color: var(--custom-text-color-dark);
+    font-size: var(--csustom-font-size-nav);
+}
+
+nav.navbar button.btn
+{
+    --bs-btn-padding-x: 0.1rem;
+    --bs-btn-padding-y: 0.1rem;
+}
+
+div.aboutCompany1
+{
+    background-color: rgba(var(--custom-color-light-intro), var(--custom-bs-bg-opacity)) !important;
+}
+
+div.aboutCompany2
+{
+    background-color: rgba(var(--custom-color-light-intro), var(--custom-bs-bg-opacity-2)) !important;
+}
+
+div.contactInfo
+{
+    background-color: rgba(var(--custom-color-light-contact-1), var(--custom-bs-bg-opacity-2)) !important;
+}

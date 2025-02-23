@@ -1,0 +1,257 @@
+/*
+    Filename: main.css
+    Applies to: all html files
+    author: Daniel Khong mun Loong
+*/
+
+/* --- All pages template styles --- */
+html, body, h1, p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Typographic Styles */
+html
+{
+	background-color: white;
+	font-family: Segoe UI Light, sans-serif, Arial, Verdana;
+}
+
+/* Page Body Styles */
+body
+{
+	background-color: white;
+	max-width: 1200px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.topStrip
+{
+    font-size: 0.8em;
+}
+
+button#infoLineArrowLeft,
+button#infoLineArrowRight
+{
+    border: none;
+    background-color: white;
+}
+
+
+a#userLogin:link,
+a#userLogin:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+a#userLogin:hover,
+a#userLogin:active
+{
+    text-decoration: underline;
+}
+
+i.navbarCart
+{
+    font-size:30px;
+}
+
+
+footer
+{
+    font-size: 0.9em;
+    font-family: Segoe UI Light, sans-serif, Arial;
+    
+}
+
+footer a:hover,
+footer a:active
+{
+    text-decoration: underline;
+}
+
+div.attribution
+{
+    font-size: 0.8em;
+}
+
+/* --- About Us page styles --- */
+
+.b-example-divider 
+{
+    width: 100%;
+    height: 3rem;
+    border-width: 1px 0;
+    /* background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15); */
+    background-image: url("../images/demin_long_1.jpg");
+}
+
+.video 
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) 56.25% */
+}
+  
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* --- Contact Us page styles --- */
+
+div.googleMapsContainer
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;   
+}
+
+iframe.googleMaps
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;    
+}
+
+/* --- Product Package page styles --- */
+
+div.menPkgItem:hover,
+div.womenPkgItem:hover
+{
+	outline: 2px solid rgba(180, 180, 180, 0.5);
+}
+
+s.gridSlashPrice
+{
+    color: red;
+}
+
+a.packageOfferTC
+{
+    color: black;
+}
+
+nav.packageNav
+{
+    --bs-breadcrumb-divider: '>';
+}
+
+div.womenPkgItem
+{
+    width: 17rem;
+}
+
+div.menPkgItem
+{
+    width: 17rem;
+}
+
+/* --- Product Details page styles --- */
+
+div.ProductDetails
+{
+    width: 37rem;
+}
+
+p.productNotesList
+{
+    font-size: 0.9em;
+}
+
+a.sizeGuide:link,
+a.sizeGuide:visited,
+a.breadcrumbLink:link,
+a.breadcrumbLink:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+a.sizeGuide:hover,
+a.sizeGuide:active,
+a.breadcrumbLink:hover,
+a.breadcrumbLink:active
+{
+    text-decoration: underline;
+}
+
+button.productOffers
+{
+    --bs-btn-border-width: 1.5px;
+}
+
+/* --- Index page styles --- */
+
+div.indexMenPkg 
+{
+    background-image: url("../images/main/grid/men/back_1.jpg");
+}
+
+div.indexWomenPkg 
+{
+    background-image: url("../images/main/grid/women/back_1.jpg");
+}
+
+div.pkgCard:hover
+{
+    opacity: 0.7;
+}
+
+a.pkgCardLink:link
+{
+    color: #414141;
+    text-decoration: none;
+}
+
+div.promoCard:hover
+{
+    opacity: 0.7;
+}
+
+/* --- Login page styles --- */
+
+div.form-signin 
+{
+    max-width: 1200px;
+    padding: 1rem;
+    height: 600px;
+}
+
+form.signinForm
+{
+    width: 400px;    
+}
+
+.form-signin input[type="email"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+  
+.form-signin input[type="password"] 
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+

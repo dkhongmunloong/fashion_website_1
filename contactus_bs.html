@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueTab Denim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!--
+      Filename: contactus_bs.html
+      author: Daniel Khong mun Loong
+    -->      
+</head>
+<body>
+  <header>
+
+    <div class="container topStrip">
+      <div class="row">
+        <div class="col-12 col-lg-10 text-center">
+          <button id="infoLineArrowLeft"> <i class="bi bi-chevron-left"></i>  </button>
+          Free delivery for orders above $100
+          <button id="infoLineArrowRight"> <i class="bi bi-chevron-right"></i> </button>
+        </div>
+        <div class="col-12 col-lg-2 text-center">
+          <a id="userLogin" href="login_bs.html"> Login / Signup </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./icons/company_logo_2.png" width="40" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MEN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">OUTERWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">TOPS</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">BOTTOMS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WOMEN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">OUTERWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">TOPS</a></li>
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">BOTTOMS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACCESSORIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">HEADGEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">FOOTWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">BAGS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="aboutus_bs.html">ABOUT US</a></li>
+                  <li><a class="dropdown-item" href="contactus_bs.html">CONTACT US</a></li>
+                  <li><a class="dropdown-item" href="aboutus_bs.html">FAQ</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Looking for..." aria-label="Search">
+              <button class="btn btn-outline-secondary px-3" type="button"><i class="bi bi-search"></i></button>
+            </form>
+            <button type="button" class="btn btn-light btn-sm position-relative">
+              <i class="bi bi-cart3 px-3 navbarCart"> </i>
+              <span class="position-absolute top-50 start-100 translate-middle badge  text-bg-secondary"> 0 <span class="visually-hidden"></span>
+            </button>
+
+          </div>
+        </div>
+      </nav>  
+  </header>
+
+  <!-- Using bootstrap 5 utilities to create jumbotron for highlighted content  -->
+  <div class="container py-4">
+
+    <div class="p-3 mb-4 bg-body-tertiary rounded-4 border border-primary-subtle border-1 shadow contactInfo">
+      <div class="container-fluid py-2">
+        <h1 class="display-6 fw-bold py-4 text-center">Our Contact Information</h1>
+        <div class="row">
+          <div class="col-lg-6 ps-4">
+
+            <h4 class="text-body-emphasis my-2">Flagship Store address</h4>
+            <p class="fs-4">500 Dover Road, Singapore Polytechnic </p>
+    
+            <h4 class="text-body-emphasis my-2">Opening Hours</h4>
+            <p class="fs-4"> Mon - Sun: 10 a.m. - 10 p.m. </p>        
+    
+            <h4 class="text-body-emphasis my-2">Contact Number</h4>
+            <p class="fs-4"> 67721900 </p>
+    
+            <button class="btn btn-primary btn-lg my-4" type="button">Make a appointment</button>            
+
+          </div>
+          <div class="col-lg-6">
+            <div class="googleMapsContainer">  
+              <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.775876175866!2d103.77497457675285!3d1.3097756986777986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a602ff17c15%3A0xa9545dd23993859e!2sSingapore%20Polytechnic!5e0!3m2!1sen!2ssg!4v1735407278414!5m2!1sen!2ssg" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>  
+          </div>
+
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Using bootstrap 5 forms inside responsive row and columns divs  -->
+    <div class="row align-items-md-stretch">
+      <!-- Form 1 -->
+      <div class="col-lg-6 my-2">
+        <div class="h-100 p-5 text-bg-dark rounded-4">
+          <h2>General enquires form</h2>
+          <p>
+            If you have a particular enquiry regarding our services or products, please fill in the following form below. 
+            <br> Required values are marked by an asterisk (*).
+          </p>
+
+          <form action="form_submit_bs.html">
+            <div class="form-group my-3">
+              <label for="name">Name*</label>
+              <input
+                type="text"
+                class="form-control"
+                name="customerName"
+                id="name"
+                placeholder="first and last name"
+                required
+              />
+            </div>
+
+            <div class="form-group my-3">
+              <label for="phone">Phone number</label>
+              <input
+                type="tel"
+                class="form-control"
+                name="customerPhone"
+                id="phone"
+                placeholder="+65XXXXXXXX"
+                pattern="^(?:\+65|65)?[689]\d{7}$"
+              />
+            </div>            
+
+            <div class="form-group my-3">
+              <label for="mail">Email*</label>
+              <input
+                type="email"
+                class="form-control"
+                name="customerEmail"
+                id="mail"
+                required
+              />
+            </div>        
+
+            <div class="form-group my-3">
+              <label for="enquiryInfo">Enquiry Type</label>
+              <select name="enquiryInfoSelect" id="enquiryInfo">
+                <option value="netorder">Online order delivery</option>
+                <option value="netpayment">Online order payment issues</option>
+                <option value="products">Product specifications and availability</option>
+                <option value="limited">Limited edition products</option>
+                <option value="corporate">Corporate type enquiries</option>
+                <option value="tour">Flagship and workshop tour</option>
+                <option value="bulk">Bulk orders</option>
+                <option value="other">Other</option>
+              </select>
+            </div>             
+
+            <div class="form-group my-3">
+              <label for="enquiryBox">Your enquiry for us</label>
+              <textarea
+                class="form-control"
+                name="enquiryBoxText"
+                id="enquiryBox"
+                rows="10"
+                placeholder="Enter your enquiry text"
+              ></textarea>
+            </div>
+
+            <div class="form-group mt-4 my-3">
+              <label for="target-audience">Optional</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    name="target_audience_1"
+                    id="staffs"
+                    value="yes"
+                  />
+                  <label for="staffs">Add me to your email list for related promotions and fashion magazine</label>
+                </div>
+              </div>
+            </div>            
+         
+            <button type="submit" class="btn btn-primary my-2">Submit</button>
+            <button type="reset" class="btn btn-warning my-2 ms-2">Reset</button>
+          </form>          
+          
+        </div>
+      </div>
+      <!-- End of Form 1 -->
+      <!-- Form 2 -->
+      <div class="col-lg-6 my-2">
+        <div class="h-100 p-5 bg-body-tertiary border border-2 rounded-4 shadow-lg">
+          <h2 class="text-center">Flagship store service <br> feedback form</h2>
+          <p>
+            If you do not have an enquiry for us but would like to feedback your experience regarding shopping at our flagship store. 
+            <br>  Please fill in the following form below instead. <br>   
+            Required values are marked by an asterisk (*).            
+          </p>
+
+          <form action="form_submit_bs.html">
+
+            <div class="form-group my-3">
+              <label for="name">Name*</label>
+              <input
+                type="text"
+                class="form-control"
+                name="customerName"
+                id="name"
+                placeholder="first and last name"
+                required
+              />
+            </div>
+
+            <div class="form-group my-3">
+              <label for="phone">Phone number</label>
+              <input
+                type="tel"
+                class="form-control"
+                name="customerPhone"
+                id="phone"
+                placeholder="+65XXXXXXXX"
+                pattern="^(?:\+65|65)?[689]\d{7}$"
+              />
+            </div>            
+
+            <div class="form-group my-3">
+              <label for="mail">Email*</label>
+              <input
+                type="email"
+                class="form-control"
+                name="customerEmail"
+                id="mail"
+                required
+              />
+            </div>        
+
+            <div class="form-group my-3">
+              <label for="visit">Date of visit</label>
+              <input
+                type="date"
+                class="form-control"
+                name="visitDate"
+                id="visit"
+              />
+            </div>        
+
+            <div class="form-group my-3">
+              <label for="visitWhy">General purpose of visit</label>
+              <input
+                type="text"
+                class="form-control"
+                name="visitReason"
+                id="visitWhy"
+              />
+            </div>              
+ 
+            <div class="form-group my-3">
+              <label for="friendlyRadio">Was the sales service friendly?</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="friendlyRadio"
+                    id="friendlyYes"
+                    value="yes"
+                  />
+                  <label for="friendlyYes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="friendlyRadio"
+                    id="friendlyNo"
+                    value="no"
+                  />
+                  <label for="friendlyNo">No</label>
+                </div>
+              </div>
+            </div>            
+
+            <div class="form-group my-3">
+              <label for="explainRadio">Was the product(s) properly introduced and explained to you?</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="explainRadio"
+                    id="explainYes"
+                    value="yes"
+                  />
+                  <label for="explainYes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="explainRadio"
+                    id="explainNo"
+                    value="no"
+                  />
+                  <label for="explainNo">No</label>
+                </div>
+              </div>
+            </div>                   
+
+            <div class="form-group my-3">
+              <label for="boughtRadio">Did you purchase any products on that visit?</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="boughtRadio"
+                    id="boughtYes"
+                    value="yes"
+                  />
+                  <label for="boughtYes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="boughtRadio"
+                    id="boughtNo"
+                    value="no"
+                  />
+                  <label for="boughtNo">No</label>
+                </div>
+              </div>
+            </div>                 
+
+            <div class="form-group my-3">
+              <label for="needsRadio">Did the sales service fulfil your purchase needs and answer your enquiries?</label>
+              <div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="needsRadio"
+                    id="needsYes"
+                    value="yes"
+                  />
+                  <label for="needsYes">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="needsRadio"
+                    id="needsNo"
+                    value="no"
+                  />
+                  <label for="needsNo">No</label>
+                </div>
+              </div>
+            </div>              
+
+            <div class="form-group my-3">
+              <label for="feedbackBox">Kindly tell us more about your shopping experience (optional)</label>
+              <textarea
+                class="form-control"
+                name="feedbackBoxText"
+                id="feedbackBox"
+                rows="5"
+                placeholder="Enter your enquiry text"
+              ></textarea>
+            </div>
+                 
+            <button type="submit" class="btn btn-primary my-2">Submit</button>
+            <button type="reset" class="btn btn-warning my-2 ms-2">Reset</button>            
+            
+          </form>          
+          
+        </div>
+      </div>
+      <!-- End of form 2  -->
+    </div>
+
+  </div>  
+
+  <footer class="bg-body-tertiary py-3">
+
+    <div class="container text-center bg-body-tertiary">
+      <div class="row align-items-start">
+        <div class="col-md-12 col-lg-4">
+          <nav class="nav flex-column">
+            <a class="nav-link" href="aboutus_bs.html">About Us</a>
+            <a class="nav-link" href="contactus_bs.html">Contact Us</a>
+            <a class="nav-link" href="aboutus_bs.html">FAQ</a>
+            <a class="nav-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook <i class="bi bi-facebook fa-lg"></i> </a>
+            <a class="nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <i class="bi bi-instagram fa-lg"></i> </a>
+            <a class="nav-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube <i class="bi bi-youtube fa-lg"></i></i> </a>
+          </nav>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#">My Account</a>
+            <a class="nav-link" href="#">Order History</a>
+            <a class="nav-link" href="#">Tracking</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Contact Us</a>
+          </nav>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <address id="contactInfo">
+            <h5> <strong> Flagship store <br> Location &amp; Hours </strong> </h5>
+            <p>Singapore Polytechnic<br />
+               500 Dover Road<br />
+              <a href="tel:6567721900"> 6772 1900</a> </p>
+            <p>Mon - Sun: 10 a.m. - 10 p.m.</p>
+            <a href="https://maps.app.goo.gl/aERjFfSVnabCDSpcA" target="_blank" rel="noopener noreferrer">Google Maps Location</a>
+         </address>
+        </div>        
+      </div>
+    </div>
+
+  </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

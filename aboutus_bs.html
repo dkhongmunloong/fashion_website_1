@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueTab Denim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!--
+      Filename: aboutus_bs.html
+      author: Daniel Khong mun Loong
+    --> 
+</head>
+<body>
+  <header>
+
+    <div class="container topStrip">
+      <div class="row">
+        <div class="col-12 col-lg-10 text-center">
+          <button id="infoLineArrowLeft"> <i class="bi bi-chevron-left"></i>  </button>
+          Free delivery for orders above $100
+          <button id="infoLineArrowRight"> <i class="bi bi-chevron-right"></i> </button>
+        </div>
+        <div class="col-12 col-lg-2 text-center">
+          <a id="userLogin" href="login_bs.html"> Login / Signup </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./icons/company_logo_2.png" width="40" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MEN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">OUTERWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">TOPS</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">BOTTOMS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WOMEN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">OUTERWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">TOPS</a></li>
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">BOTTOMS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACCESSORIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">HEADGEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">FOOTWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">BAGS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="aboutus_bs.html">ABOUT US</a></li>
+                  <li><a class="dropdown-item" href="contactus_bs.html">CONTACT US</a></li>
+                  <li><a class="dropdown-item" href="aboutus_bs.html">FAQ</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Looking for..." aria-label="Search">
+              <button class="btn btn-outline-secondary px-3" type="button"><i class="bi bi-search"></i></button>
+            </form>
+            <button type="button" class="btn btn-light btn-sm position-relative">
+              <i class="bi bi-cart3 px-3 navbarCart"> </i>
+              <span class="position-absolute top-50 start-100 translate-middle badge  text-bg-secondary"> 0 <span class="visually-hidden"></span>
+            </button>
+
+          </div>
+        </div>
+      </nav>  
+  </header>
+  
+  <!-- Using bootstrap 5 utilities to create series of jumbotrons for introduction informaiton from macro to details -->
+  <div class="container my-4">
+    <div class="p-4 text-center bg-body-tertiary rounded-3 shadow border border-1">
+      <h1 class="text-body-emphasis">About Us</h1>
+      <div class="row mt-4">
+        <div class="col-lg-3">
+        </div>        
+        <div class="col-lg-3">
+          <img class="img-thumbnail" src="images/man_tailor.jpg" alt="man tailor about us" width="200" />
+        </div>
+        <div class="col-lg-3">
+          <img class="img-thumbnail" src="images/woman_tailor.jpg" alt="woman tailor about us" width="200" />
+        </div>
+        <div class="col-lg-3">
+        </div>                  
+      </div>
+      <p class="col-lg-8 mx-auto my-4 fs-5 text-muted">
+        We are an artisan denim clothing company based in Singapore that specializes 
+        in handmade method of making denim-based clothing such as jeans, jackets and accessories. <br>    
+        Our founder, Daphne spent years to understudy denim craftsmen in Japan and Italy to hone
+        her craftsmanship in denim fashion design and fabrication. The style of clothing we aspire 
+        to create is a style which is attention to details, unique but still comfortable to wear for the 
+        everyday.             
+      </p>
+      <div class="d-inline-flex gap-4 mb-5">
+        <a href="#">
+          <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill mt-3" type="button">
+            Our awards
+          </button>
+        </a>
+        <a href="#">
+          <button class="btn btn-secondary btn-lg px-4 rounded-pill mt-3" type="button">
+            Our founder's biography
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <div class="container my-4">
+    <div class="position-relative p-3 text-center bg-body border border-info-subtle border-1 rounded-5 aboutCompany1 shadow">
+      <h1 class="text-body-emphasis mb-4">Our Difference</h1>
+      <div class="video">
+        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/myqcURxxs40"></iframe>
+      </div>
+      <p class="col-lg-6 mx-auto my-4 fs-5 text-muted">
+        BlueTab Jeans was born out of Daphne's desire to provide local customers with 
+        affordable handmade denim clothing inspired by Japanese style of denim making coupled 
+        with her modern design tones. Traditional and artisan implementation yet with fresh design 
+        forms that stand out from mass market clothing.
+      </p>
+      <button class="btn btn-primary btn-lg rounded-pill px-3 my-2" type="button">
+        Our Denim Process
+      </button>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>  
+
+  <div class="container my-4">
+    <div class="p-4 text-center bg-body-tertiary rounded-4 border border-1 shadow">
+      <h1 class="text-body-emphasis">Our Team and facilities</h1>
+      <p class="col-lg-8 mx-auto my-4 fs-5 text-muted">
+        Working together with Daphne, our growing team consists of aspiring denim craftsmen, 
+        tailors, fashion designers and operations support staff.  <br>  Our company's workshop is 
+        integrated into the same facility as our flagship store as we aim for a vertically integrated 
+        process from design to fabrication to sale. <br> We are designers, tailor and retailer all in one, 
+        reducing the product handoffs to third parties, therefore it is evident that the quality control 
+        and customer feedback is well maintained to the core.            
+      </p>
+      <div class="d-inline-flex gap-4 mb-5">
+        <a href="#">
+          <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill mt-3" type="button">
+            Our facilities
+          </button>
+        </a>
+        <a href="#">
+          <button class="btn btn-secondary btn-lg px-4 rounded-pill mt-3" type="button">
+            Our team biography
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+
+  <!-- Using bootstrap 5 Accordion to present details by categories -->
+  <div class="container my-4">
+    <div class="position-relative p-5 text-center bg-body border border-info-subtle border-1 rounded-5 aboutCompany2 shadow">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="text-body-emphasis my-4">Our Concept</h1>
+          <div class="accordion" id="accordionLeft">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneLeft" aria-expanded="true" aria-controls="collapseOneLeft">
+                  <strong> Inspiring Quote </strong>
+                </button>
+              </h2>
+              <div id="collapseOneLeft" class="accordion-collapse collapse show" data-bs-parent="#accordionLeft">
+                <div class="accordion-body">
+                  <blockquote class="blockquote">
+                    <p> <i> Design is not just what it looks like and feels like. <br> Design is how it works. </i></p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Steve Jobs
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoLeft" aria-expanded="false" aria-controls="collapseTwoLeft">
+                  <strong> Our Design Philosophy </strong>
+                </button>
+              </h2>
+              <div id="collapseTwoLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                <div class="accordion-body">
+                  Although many may think that fashion design is largely based on the inspiration, philosophy 
+                  and emotions of the fashion designer, our company does the realistic approach of well 
+                  understanding “how denim clothing works”
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeLeft" aria-expanded="false" aria-controls="collapseThreeLeft">
+                  <strong> Our implementation embodying our philosophy </strong>
+                </button>
+              </h2>
+              <div id="collapseThreeLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                <div class="accordion-body">
+                  Our products undergo rigorous process of formulating the design form factor to perfection. Each cutting, shape, positioning of components 
+                  such as pockets and buttons considers how the customer will not only look 
+                  stylish in it but also how he or she moves easily in it. 
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourLeft" aria-expanded="false" aria-controls="collapseFourLeft">
+                  <strong> Our implementation know-how </strong>
+                </button>
+              </h2>
+              <div id="collapseFourLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                <div class="accordion-body">
+                  A perfect design is nothing without the fabrication and tailoring to realize its ultimate 
+                  potential. Here is where Daphne and her team of craftsmen put their Midas touch and 
+                  collective artisan experience to transform quality materials into the realized product with 
+                  no deviation from the envisioned design.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveLeft" aria-expanded="false" aria-controls="collapseFiveLeft">
+                  <strong> Our quality standard </strong>
+                </button>
+              </h2>
+              <div id="collapseFiveLeft" class="accordion-collapse collapse" data-bs-parent="#accordionLeft">
+                <div class="accordion-body">
+                  Japanese denim is well known in the world for its exception quality. Here, we aim for every 
+                  finished product to match this standard of quality or exceed it. Our quality control process 
+                  for every product ensures this to be met.
+                </div>
+              </div>
+            </div>
+            
+          </div> <!-- End of accordion left -->
+
+        </div> <!-- End of col left -->
+
+        <div class="col-lg-6">
+          <h1 class="text-body-emphasis my-4">Our Customers</h1>
+          <div class="accordion" id="accordionRight">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneRight" aria-expanded="true" aria-controls="collapseOneRight">
+                  <strong>Flagship store</strong>
+                </button>
+              </h2>
+              <div id="collapseOneRight" class="accordion-collapse collapse show" data-bs-parent="#accordionRight">
+                <div class="accordion-body">
+                  Our flagship store stocks several ready-made popular Denim products that 
+                  our walk-in or online customers can readily purchase. There are several limited-edition 
+                  design products that are subjected to reservations and pre-orders. 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoRight" aria-expanded="false" aria-controls="collapseTwoRight">
+                  <strong>Made-to-order</strong>
+                </button>
+              </h2>
+              <div id="collapseTwoRight" class="accordion-collapse collapse" data-bs-parent="#accordionRight">
+                <div class="accordion-body">
+                  We also provide customized denim making services in selective quantities 
+                  to boutique international Denim brands who require unique fashion specifications for their 
+                  limited-edition products. 
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- End of accordion right -->
+          
+        </div> <!-- End of col right -->
+
+      </div> <!-- End of row -->
+    </div> <!-- End of div border round -->
+
+  </div> <!-- End of div container category -->
+
+  <footer class="bg-body-tertiary py-3">
+    <div class="container text-center bg-body-tertiary">
+      <div class="row align-items-start">
+        <div class="col-md-12 col-lg-4">
+          <nav class="nav flex-column">
+            <a class="nav-link" href="aboutus_bs.html">About Us</a>
+            <a class="nav-link" href="contactus_bs.html">Contact Us</a>
+            <a class="nav-link" href="aboutus_bs.html">FAQ</a>
+            <a class="nav-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook <i class="bi bi-facebook fa-lg"></i> </a>
+            <a class="nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <i class="bi bi-instagram fa-lg"></i> </a>
+            <a class="nav-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube <i class="bi bi-youtube fa-lg"></i></i> </a>
+          </nav>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#">My Account</a>
+            <a class="nav-link" href="#">Order History</a>
+            <a class="nav-link" href="#">Tracking</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Contact Us</a>
+          </nav>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <address id="contactInfo">
+            <h5> <strong> Flagship store <br> Location &amp; Hours </strong> </h5>
+            <p>Singapore Polytechnic<br />
+               500 Dover Road<br />
+              <a href="tel:6567721900"> 6772 1900</a> </p>
+            <p>Mon - Sun: 10 a.m. - 10 p.m.</p>
+            <a href="https://maps.app.goo.gl/aERjFfSVnabCDSpcA" target="_blank" rel="noopener noreferrer">Google Maps Location</a>
+         </address>
+        </div>        
+      </div>
+    </div>
+
+  </footer>
+  <div class="container-fluid m-2 attribution">
+    <p class="resources">Resource attributions: </p>
+    <a class="resources" href="https://www.flaticon.com/free-icons/retail" title="retail icons">Retail icons created by Freepik - Flaticon</a> <br>
+    <a class="resources" href="https://www.flaticon.com/free-icons/sewing" title="sewing icons">Sewing icons created by ultimatearm - Flaticon</a> <br> 
+    <a class="resources" href="https://www.pexels.com/" > Pexels - Search, Click Download Button over image</a> <br>
+    <a class="resources" href="https://chatgpt.com/" > ChatGpt - Generate Image </a> <br>
+    <a class="resources" href="https://www.youtube.com/" > Youtube - Search </a>
+  </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>

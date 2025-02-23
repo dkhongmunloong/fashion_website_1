@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueTab Denim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/color.css">
+    <!--
+      Filename: product_men_bottom_1_bs.html
+      author: Daniel Khong mun Loong
+    -->   
+</head>
+<body>
+  <header>
+
+    <div class="container topStrip">
+      <div class="row">
+        <div class="col-12 col-lg-10 text-center">
+          <button id="infoLineArrowLeft"> <i class="bi bi-chevron-left"></i>  </button>
+          Free delivery for orders above $100
+          <button id="infoLineArrowRight"> <i class="bi bi-chevron-right"></i> </button>
+        </div>
+        <div class="col-12 col-lg-2 text-center">
+          <a id="userLogin" href="login_bs.html"> Login / Signup </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./icons/company_logo_2.png" width="40" height="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MEN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">OUTERWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">TOPS</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">BOTTOMS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  WOMEN
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">OUTERWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">TOPS</a></li>
+                  <li><a class="dropdown-item" href="product_women_bottom_bs.html">BOTTOMS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ACCESSORIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">HEADGEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">FOOTWEAR</a></li>
+                  <li><a class="dropdown-item" href="product_men_bottom_bs.html">BAGS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="aboutus_bs.html">ABOUT US</a></li>
+                  <li><a class="dropdown-item" href="contactus_bs.html">CONTACT US</a></li>
+                  <li><a class="dropdown-item" href="aboutus_bs.html">FAQ</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Looking for..." aria-label="Search">
+              <button class="btn btn-outline-secondary px-3" type="button"><i class="bi bi-search"></i></button>
+            </form>
+            <button type="button" class="btn btn-light btn-sm position-relative">
+              <i class="bi bi-cart3 px-3 navbarCart"> </i>
+              <span class="position-absolute top-50 start-100 translate-middle badge  text-bg-secondary"> 0 <span class="visually-hidden"></span>
+            </button>
+
+          </div>
+        </div>
+      </nav>  
+  </header>
+  <!-- Using bootstrap 5 breadcrumb for site navigation -->
+  <div class="d-flex justify-content-center mt-3 mx-4">
+    <nav aria-label="breadcrumb" class="packageNav text-center">
+      <ol class="breadcrumb text-center">
+        <li class="breadcrumb-item"><a class="breadcrumbLink" href="product_men_bottom_bs.html">Men</a></li>
+        <li class="breadcrumb-item"><a class="breadcrumbLink" href="product_men_bottom_bs.html">Bottoms</a></li>
+        <li class="breadcrumb-item"><a class="breadcrumbLink" href="product_men_bottom_bs.html">Slim</a></li>
+        <li class="breadcrumb-item active" aria-current="page">BlueTab Men's Design#123 Slim Jeans</li>
+      </ol>
+    </nav>    
+  </div>
+
+  <div class="container">
+    <div class="row my-3">
+      <div class="col-lg-6 d-flex justify-content-center my-2">
+        <!-- Top left : image carousel. Using bootstrap 5 carousel for user to scroll through the product images -->
+        <div id="carouselProductImage" class="carousel slide w-60">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="1" class="bg-dark" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="2" class="bg-dark" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselProductImage" data-bs-slide-to="3" class="bg-dark" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/products/men/bottoms/design123/view1_large.jpg" class="d-block w-100" alt="design123 picture 1">
+            </div>
+            <div class="carousel-item">
+              <img src="images/products/men/bottoms/design123/view2_large.jpg" class="d-block w-100" alt="design123 picture 2">
+            </div>
+            <div class="carousel-item">
+              <img src="images/products/men/bottoms/design123/view1_large.jpg" class="d-block w-100" alt="design123 picture 3">
+            </div>
+            <div class="carousel-item">
+              <img src="images/products/men/bottoms/design123/view2_large.jpg" class="d-block w-100" alt="design123 picture 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselProductImage" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselProductImage" data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>         
+
+      </div>
+
+      <!-- Top right: Product details breakdown. Using bootstrap 5 card with each list item containing sub category of details -->
+      <div class="col-lg-6 d-flex justify-content-center my-2">
+        <div class="card ProductDetails">
+          <div class="card-header">
+            <p class="text-start fs-4 fw-normal">BlueTab Men's Design#123 Slim Jeans</p> 
+            <p class="text-start fs-5">
+              <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i> (18)   
+            </p>
+            <p class="text-start fs-4 fw-normal">
+              $57.00
+            </p>
+            <p class="text-start fs-6 fw-light">
+              Or 4 installments of $14.25 by B.N.P.L
+            </p>
+           
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p class="my-1 fs-5 fw-normal text-info-emphasis">Sizing</p>
+              <div class="row my-2">
+                <div class="col-6"><p class="text-start">Waist</p></div>
+                <div class="col-6"><p class="text-end"><i class="bi bi-info-circle me-1"></i><a class="sizeGuide" href="#">Waist Guide</a></p></div>
+              </div>
+
+              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1W" autocomplete="off" checked>
+                <label class="btn btn-light btn-sm" for="btnradio1W">31</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2W" autocomplete="off">
+                <label class="btn btn-light btn-sm" for="btnradio2W">32</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3W" autocomplete="off" disabled>
+                <label class="btn btn-outline-secondary btn-sm" for="btnradio3W"><s>33</s></label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio4W" autocomplete="off">
+                <label class="btn btn-light btn-sm" for="btnradio4W">34</label>                
+
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio5W" autocomplete="off" disabled>
+                <label class="btn btn-outline-secondary btn-sm" for="btnradio5W"><s>35</s></label>                
+              </div>
+
+              <div class="row my-2">
+                <div class="col-6"><p class="text-start">Length</p></div>
+                <div class="col-6"><p class="text-end"><i class="bi bi-info-circle me-1"></i><a class="sizeGuide" href="#">Length Guide</a></p></div>
+              </div>              
+
+              <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio2" id="btnradio1L" autocomplete="off" checked>
+                <label class="btn btn-light btn-sm" for="btnradio1L">31</label>           
+              </div>
+
+            </li>
+            <li class="list-group-item">
+              <p class="my-1 fs-5 fw-normal text-info-emphasis">Offers</p>
+
+              <div class="d-grid gap-2 d-md-block my-2">
+                <button class="btn btn-outline-dark btn-sm ms-2 productOffers" type="button" disabled>
+                  <p class="text-primary fw-bold">Free Shipping</p> 
+                  with no min spend for <br>
+                  "Jeanie" members
+                </button>
+                <button class="btn btn-outline-dark btn-sm ms-2 productOffers" type="button" disabled>
+                  <p class="text-primary fw-bold">Get Additional Discount</p> 
+                  of 10% regular price on your <br>
+                  first time purchase
+                </button>
+              </div>
+
+            </li>
+            <li class="list-group-item">
+              <p class="my-1 fs-5 fw-normal text-info-emphasis">Quantity</p>
+              
+              <div class="row my-2">
+                <div class="col-lg-10 col-md-10 col-sm-10 my-1"><p class="text-start">Select Quantity</p></div>
+                <div class="col-lg-2 col-md-2 col-sm-2 my-1">
+                  <select class="form-select form-select-sm" aria-label="Small select example">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="d-grid col-12 mx-auto my-2">
+                <button class="btn btn-primary" type="button">Add to Cart</button>
+              </div>
+
+            </li>
+            <li class="list-group-item">
+              <p class="my-1 fs-5 fw-normal text-info-emphasis">Additonal notes</p>
+              <ul class="list-group list-group-flush p-1">
+                <li class="list-group-item"><p class="fw-light productNotesList"> <i class="bi bi-truck-front-fill me-1"></i> Standard delivery in 3-4 working days </p></li>
+                <li class="list-group-item"><p class="fw-light productNotesList"> <i class="bi bi-shop me-1"></i> Visit our flagship store for customization and alteration </p></li>
+                <li class="list-group-item"><p class="fw-light productNotesList"> <i class="bi bi-person-circle me-1"></i> Join our "Jeanie" membership to earn loyalty points and exclusive member deals </p></li>
+                <li class="list-group-item"><p class="fw-light productNotesList"> <i class="bi bi-box-seam me-1"></i> 30 day original condition size exchange </p></li>
+              </ul>
+            
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <!-- End of top row -->
+
+    <div class="row my-3">
+
+      <div class="col-lg-6 my-2">
+        <!-- Bottom left : Product description. Using bootstrap 5 card for simple text description -->
+        <div class="card">
+          <div class="card-header">
+            <p class="my-1 fs-5 fw-normal text-info-emphasis">Description</p>
+          </div>        
+          
+          <div class="card-body">
+            <p class="fw-light fs-5">
+              This pair of stylish slim jeans is both functional and beautiful at the same time. 
+              It allows the wearer room to move freely despite it adopting a slim cutting to provide a sleek look. 
+              The streamline portions are designed at the waist and thigh region. 
+              The measurements for every size number are calculated and finetuned so that it fits the wearer perfectly for daily wear as if it was tailor-made for him. 
+           </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 my-2">
+        <!-- Bottom right: Product summary points. Using bootstrap 5 card with nav tabs, each containing sub category of details -->
+        <div class="card">
+          <div class="card-header">
+              <h5 class="card-title fw-normal text-info-emphasis">Summary</h5>
+              <ul class="nav nav-tabs card-header-tabs" data-bs-tabs="tabs">
+    
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" data-bs-toggle="tab" href="#main">Characteristics</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#fit">How it fits</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#care">Composition & Care</a>
+                </li>
+
+              </ul>
+          </div>
+          <div class="card-body tab-content">
+    
+              <div class="tab-pane active" id="main">
+
+                <ul class="list-group list-group-flush fw-light fs-6">
+                  <li class="list-group-item">The slim jeans made of premium denim</li>
+                  <li class="list-group-item">Denim shade perfectly and uniquely deep colored using our house techniques</li>
+                  <li class="list-group-item">Thin and durable fabric but feels cooling to wear</li>
+                  <li class="list-group-item">Expertly stitched together to look premium finished</li>
+                </ul>                
+                
+              </div>
+    
+              <div class="tab-pane" id="fit">
+                <ul class="list-group list-group-flush fw-light fs-6">
+                  <li class="list-group-item">Stretchable denim</li>
+                  <li class="list-group-item">Slim through the waist and thigh</li>
+                  <li class="list-group-item">Slim leg cutting</li>
+                  <li class="list-group-item">Perfectly mounted to the waist</li>
+                  <li class="list-group-item">Zip fly</li>
+                  <li class="list-group-item">Standard two pockets in front and two at the back</li>
+                </ul>   
+              </div>
+
+              <div class="tab-pane" id="care">
+                <ul class="list-group list-group-flush fw-light fs-6">
+                  <li class="list-group-item">70% Cotton, 30% Polyester</li>
+                  <li class="list-group-item">Recommended to wash your jeans at least once every 3 wears</li>
+                  <li class="list-group-item">Do NOT use bleach and strong detergent</li>
+                  <li class="list-group-item">Machine washing and drying is possible</li>
+                </ul>     
+              </div>              
+    
+          </div>
+       </div>  
+        
+      </div>      
+
+    </div>
+
+  </div> 
+
+  <footer class="bg-body-tertiary py-3">
+
+    <div class="container text-center bg-body-tertiary">
+      <div class="row align-items-start">
+        <div class="col-md-12 col-lg-4">
+          <nav class="nav flex-column">
+            <a class="nav-link" href="aboutus_bs.html">About Us</a>
+            <a class="nav-link" href="contactus_bs.html">Contact Us</a>
+            <a class="nav-link" href="aboutus_bs.html">FAQ</a>
+            <a class="nav-link" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook <i class="bi bi-facebook fa-lg"></i> </a>
+            <a class="nav-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <i class="bi bi-instagram fa-lg"></i> </a>
+            <a class="nav-link" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">Youtube <i class="bi bi-youtube fa-lg"></i></i> </a>
+          </nav>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <nav class="nav flex-column">
+            <a class="nav-link" href="#">My Account</a>
+            <a class="nav-link" href="#">Order History</a>
+            <a class="nav-link" href="#">Tracking</a>
+            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#">Contact Us</a>
+          </nav>
+        </div>
+        <div class="col-md-12 col-lg-4">
+          <address id="contactInfo">
+            <h5> <strong> Flagship store <br> Location &amp; Hours </strong> </h5>
+            <p>Singapore Polytechnic<br />
+               500 Dover Road<br />
+              <a href="tel:6567721900"> 6772 1900</a> </p>
+            <p>Mon - Sun: 10 a.m. - 10 p.m.</p>
+            <a href="https://maps.app.goo.gl/aERjFfSVnabCDSpcA" target="_blank" rel="noopener noreferrer">Google Maps Location</a>
+         </address>
+        </div>        
+      </div>
+    </div>
+
+  </footer>
+  <div class="container-fluid m-2 attribution">
+    <p class="resources">Resource attributions: </p>
+    <a class="resources" href="https://www.pexels.com/" > Pexels - Search, Click Download Button over image</a> <br>		
+  </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
