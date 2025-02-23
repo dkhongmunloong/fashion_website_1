@@ -9,3 +9,4 @@ The goal of this assignment is to familiarize with a framework that can help you
 • Fashion Website
 • Review site, eg. Tom and Lorenzo
 You may use any license-free resources such as images and buttons available over the Internet. (Take note you have to give credit to your sources, eg Pexels.com)
+All images used in this personal project website are stock images for educational non-commercial purposes. Public video link used from youtube is for education and testing purposes.
